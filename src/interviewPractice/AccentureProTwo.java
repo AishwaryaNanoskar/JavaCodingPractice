@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 class Employee {
 
 	private long empId;
-	private String name;
+	private String name;  
 	private int age;
 	private String designation;
 
