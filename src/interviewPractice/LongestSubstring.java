@@ -6,7 +6,7 @@ import java.util.List;
 
 public class LongestSubstring {
 	public static void main(String[] args) {
-		String str = "abcabcde";
+		String str = "abcabcde";  
 
 		List<Character> data = new ArrayList<>();
 		List<Integer> dataCount = new ArrayList<>();
