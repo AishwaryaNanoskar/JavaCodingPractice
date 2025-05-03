@@ -18,5 +18,8 @@ public class ConsumerExample {
 		};
 
 		list.accept(Arrays.asList(1, 2, 3, 4));
+		
+		Consumer<String> consumer = s -> System.out.println("Data is: "+s);
+		consumer.accept("Aishwarya Nanoskar");
 	}
 }
